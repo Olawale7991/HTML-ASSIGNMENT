@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .mother-div{
@@ -135,5 +136,64 @@
     
 }
 
+.htag{
+    width: 100%;
+    height:700px;
+    background-color: rgba(0, 255, 255, 0.082);
+    padding-left: 500px ;
+
+}
+
+.htag label, input, select, button{
+  font-size: 20px;
+
+}
+
+.john{
+    width: 65%;
+    height: 300px;
+    /* background-color: aquamarine; */
+    margin-left: 250px;
+}
+
+.john h2, h5{
+    text-align: center;
+    line-height: 30px;
+}
+
+.word{
+    /* background-color: lightgray; */
+    width: 70%;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.word .child{
+    text-align: center;
+    font-size: 70px;
+    line-height: -20px;
+
+}
+
+.word .children{
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.word .butt{width: 10%;
+    height: 10%;
+    background-color: black;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 430px;
+    
+}
 
 
